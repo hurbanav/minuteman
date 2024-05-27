@@ -11,6 +11,5 @@
 
 import pdf_manager
 
-
 pdf_manager.pdf_to_png(r'C:\Users\henri\Downloads\testinhos sanches gestão ambiental 4.pdf')
 
