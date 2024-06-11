@@ -50,6 +50,8 @@ class TextRedirector:
         self.widget.insert('end', message)
         self.widget.configure(state='disabled')
         self.widget.yview('end')
+        self.widget.update_idletask()
+        self.widget.update()
 
     def flush(self):
         pass  # No action needed
